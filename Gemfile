@@ -70,3 +70,5 @@ gem 'pry-byebug'
 gem 'sorcery', '0.14.0'
 
 gem 'rails-i18n', '~> 5.1'
+
+gem "draper", "3.1.0"

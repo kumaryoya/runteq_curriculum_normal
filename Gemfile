@@ -63,7 +63,7 @@ end
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 gem 'bootstrap', '~> 4.3.1'
-gem 'font-awesome-sass', '~> 5.11.2'
+gem 'font-awesome-sass', '~> 5.15.1'
 gem "jquery-rails"
 
 gem 'pry-byebug'
@@ -72,3 +72,7 @@ gem 'sorcery', '0.14.0'
 gem 'rails-i18n', '~> 5.1'
 
 gem "draper", "3.1.0"
+
+group :development, :test do
+  gem 'faker'
+end

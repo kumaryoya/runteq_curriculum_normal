@@ -76,3 +76,5 @@ gem "draper", "3.1.0"
 group :development, :test do
   gem 'faker'
 end
+
+gem 'carrierwave', "2.0.2"

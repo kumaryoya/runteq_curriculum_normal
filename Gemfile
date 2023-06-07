@@ -78,3 +78,5 @@ group :development, :test do
 end
 
 gem 'carrierwave', "2.0.2"
+
+gem 'kaminari', "1.1.1"

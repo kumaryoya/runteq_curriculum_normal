@@ -80,3 +80,5 @@ end
 gem 'carrierwave', "2.0.2"
 
 gem 'kaminari', "1.1.1"
+
+gem 'ransack', '2.3.0'

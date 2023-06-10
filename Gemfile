@@ -75,6 +75,7 @@ gem "draper", "3.1.0"
 
 group :development, :test do
   gem 'faker'
+  gem 'letter_opener_web', '~> 1.3.4'
 end
 
 gem 'carrierwave', "2.0.2"
@@ -82,3 +83,5 @@ gem 'carrierwave', "2.0.2"
 gem 'kaminari', "1.1.1"
 
 gem 'ransack', '2.3.0'
+
+gem 'config', "2.0.0"
